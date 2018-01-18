@@ -5,7 +5,7 @@ public class CheckEODApp {
 	public static void main(String[] args) {
 			
 			CommandEngine serverCheck = new CommandEngine("10.187.2.119");
-			//serverCheck.checkEOD(); commented this line to demostrate GIT commit
+			serverCheck.checkEOD();
 			System.out.println(CommandEngine.getAlertEOD() + "\n" + CommandEngine.getReportEOD());
 			
 			try {
